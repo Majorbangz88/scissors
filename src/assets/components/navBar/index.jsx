@@ -2,6 +2,7 @@ import logo from "../../images/Logo.png";
 import FilledButton from "../../../buttons/filledButton";
 import GhostButton from "../../../buttons/ghostButton";
 import styles from "../../components/navBar/index.module.css"
+import { IoIosArrowDown } from "react-icons/io";
 
 const NavBar = () => {
     return(
@@ -11,8 +12,11 @@ const NavBar = () => {
             </div>
 
             <div className={styles.midSection}>
-                <p>My URLs</p>
-                <p>Features</p>
+                <p className={styles.urlTextColor}>My URLs</p>
+                <div className={styles.featureBtn}>
+                    <p>Features</p>
+                    <IoIosArrowDown />
+                </div>
                 <p>Pricing</p>
                 <p>Analytics</p>
                 <p>FAQs</p>

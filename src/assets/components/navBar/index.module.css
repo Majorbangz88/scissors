@@ -15,8 +15,24 @@
 
 .midSection > p {
     font-family: 'HelveticaforTarget', sans-serif;
+    font-weight: bold;
 }
 
 .btn {
     display: flex;
+}
+
+.urlTextColor {
+    color: rgb(0, 90, 226);
+}
+
+.featureBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+
+    > p {
+        font-weight: bold;
+    }
 }
