@@ -1,9 +1,9 @@
 import React from 'react'
-import GroupSix from '../../images/Group 6.png'
-import GroupSixA from '../../images/Group 6a.png'
-import QrCode from '../../images/Frame 1000001695.png'
-import LastImage from '../../images/Frame 1000001718.png'
-import Line from '../../images/Line 70.png'
+import GroupSix from '../../../assets/images/Group 6.png'
+import GroupSixA from '../../../assets/images/Group 6a.png'
+import QrCode from '../../../assets/images/Frame 1000001695.png'
+import LastImage from '../../../assets/images/Frame 1000001718.png'
+import Line from '../../../assets/images/Line 70.png'
 import styles from '../fourthSection/index.module.css'
 
 const FourthSection = () => {

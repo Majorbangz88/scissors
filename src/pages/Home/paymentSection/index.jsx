@@ -1,5 +1,5 @@
 import React from 'react';
-import Line from '../../images/Line 70.png';
+import Line from '../../../assets/images/Line 70.png';
 import styles from '../paymentSection/index.module.css';
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import FilledButton from '../../../buttons/filledButton'

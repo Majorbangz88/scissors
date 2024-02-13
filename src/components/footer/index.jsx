@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import style from './index.module.css';
 import FooterContent from './data';
 
-const logo = require('../../images/Logo.png')
+const logo = require('../../assets/images/Logo.png')
 
 function Footer() {
   return (
@@ -38,7 +38,7 @@ function Footer() {
         </div>
 
         <div className={style.lastLast}>
-            <p>Term of Service | Security | Scissor 2023</p>
+            <p>Terms of Service | Security | Scissor 2023</p>
             
         </div>
       

@@ -1,6 +1,6 @@
-import logo from "../../images/Logo.png";
-import FilledButton from "../../../buttons/filledButton";
-import GhostButton from "../../../buttons/ghostButton";
+import logo from "../../assets/images/Logo.png";
+import FilledButton from "../../buttons/filledButton";
+import GhostButton from "../../buttons/ghostButton";
 import styles from "../../components/navBar/index.module.css"
 import { IoIosArrowDown } from "react-icons/io";
 

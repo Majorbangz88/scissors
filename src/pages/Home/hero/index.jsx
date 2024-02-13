@@ -1,11 +1,11 @@
 import FilledButton from '../../../buttons/filledButton';
 import GhostButton from '../../../buttons/ghostButton';
-import Logo from '../../images/Vector 3.png';
-import styles from "../outlet/index.module.css"
-import Vector from '../../images/Vector 2.png'
-import Frame from '../../images/Frame 1000001716.png'
-import Ellipses from '../../images/Ellipse 1.png'
-import Rectangle from '../../images/Rectangle 9.png'
+import Logo from '../../../assets/images/Vector 3.png';
+import styles from "../hero/index.module.css"
+import Vector from '../../../assets/images/Vector 2.png'
+import Frame from '../../../assets/images/Frame 1000001716.png'
+import Ellipses from '../../../assets/images/Ellipse 1.png'
+import Rectangle from '../../../assets/images/Rectangle 9.png'
 
 const BodyContent = () => {
     return(

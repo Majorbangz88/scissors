@@ -9,20 +9,15 @@
 
 // export default App;
 
-import { Routes, useRoutes, Route, BrowserRouter } from 'react-router-dom'
+import { useRoutes } from 'react-router-dom'
 import { ROUTES } from './routers';
 import './App.css';
 import Layout from './layout';
 
-function App(){
-  return (
-    <BrowserRouter>
+function App( ){
 
-      <Routes>
-        <Route path='/' element= {<Layout/>} />
-      </Routes>
-    </BrowserRouter>
-  )
+  return useRoutes(ROUTES)
+  
 }
 
 export default App;

@@ -1,4 +1,5 @@
 // import NavBar from "../assets/components/navBar"
+import Home from "../pages/Home"
 import Layout from "../layout"
 
 export const ROUTES = [
@@ -8,7 +9,7 @@ export const ROUTES = [
         children: [
             {
                 path: "",
-                element: "",
+                element: <Home/>
             },
         ]
     },

@@ -1,7 +1,7 @@
 import React from 'react'
-import FilledButton from '../../../buttons/filledButton/index'
+import FilledButton from '../../../buttons/filledButton'
 import styles from '../finalSection/index.module.css'
-import Line from '../../images/Line 70.png'
+import Line from '../../../assets/images/Line 70.png'
 import FaqContent from './data'
 import { MdAdd } from "react-icons/md";
 

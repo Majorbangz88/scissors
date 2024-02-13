@@ -113,7 +113,7 @@
 } */
 
 .formDiv {
-    background-image: url('../../images/form\ section.png');
+    background-image: url('../../../assets/images/form\ section.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 80px;
