@@ -1,19 +1,14 @@
 import React from 'react'
-import { FcGoogle } from "react-icons/fc";
-import FilledButton from '../../buttons/filledButton';
+import { Outlet } from 'react-router-dom'
+import Footer from '../../components/footer/index'
 
 const Login = () => {
   return (
-    <div>
-        <div>
-            <p>Log in with</p>
-            <div>
-                <FilledButton />
-            </div>
-        </div>
-    </div>
+    <>
+      <Outlet/>
+      <Footer/>
+    </>
   )
 }
-//<FcGoogle />
 
 export default Login

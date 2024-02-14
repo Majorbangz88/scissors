@@ -23,7 +23,7 @@ const NavBar = () => {
             </div>
 
             <div className={styles.btn}>
-                <GhostButton text="Log in" color='none'/>
+                <GhostButton text="Log in" color='none' onClick />
                 <FilledButton text="Try for free" color="blue"/>
             </div>
         </div>

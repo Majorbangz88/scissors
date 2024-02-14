@@ -1,0 +1,17 @@
+.loginMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.loginInnerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hrLine {
+    display: flex;
+    flex-direction: row;
+}
