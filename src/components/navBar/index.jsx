@@ -3,8 +3,16 @@ import FilledButton from "../../buttons/filledButton";
 import GhostButton from "../../buttons/ghostButton";
 import styles from "../../components/navBar/index.module.css"
 import { IoIosArrowDown } from "react-icons/io";
+import { Link, useNavigate } from "react-router-dom"
 
 const NavBar = () => {
+
+    const navigate = useNavigate();
+
+    function gotoLoginForm(){
+        navigate('/login')
+    }
+
     return(
         <div className={styles.mainContainer}>
             <div>
@@ -12,18 +20,22 @@ const NavBar = () => {
             </div>
 
             <div className={styles.midSection}>
-                <p className={styles.urlTextColor}>My URLs</p>
+                <p className={styles.urlTextColor}>
+                    <Link to="urls/">My URLs</Link>
+                </p>
                 <div className={styles.featureBtn}>
-                    <p>Features</p>
+                    <p>
+                        <Link to="features/">Features</Link>
+                    </p>
                     <IoIosArrowDown />
                 </div>
-                <p>Pricing</p>
-                <p>Analytics</p>
-                <p>FAQs</p>
+                <p><Link to='pricing/'>Pricing</Link></p>
+                <p><Link to='analytics/'>Analytics</Link></p>
+                <p><Link to='faq/'>FAQs</Link></p>
             </div>
 
             <div className={styles.btn}>
-                <GhostButton text="Log in" color='none' onClick />
+                <GhostButton text="Log in" color='#0065FE' padding="12px 24px" callBack={gotoLoginForm} />
                 <FilledButton text="Try for free" color="blue"/>
             </div>
         </div>

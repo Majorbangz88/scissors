@@ -1,17 +1,52 @@
-.loginMainDiv {
+.login{
     display: flex;
     flex-direction: column;
+    padding: 100px;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
-.loginInnerDiv {
+.lineAndOr{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    >hr{
+        width: 200px;
+    }
+
+}
+
+.forms{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 10px;
+
+    >input{
+        width: 426px;
+        height: 46px;
+        border: 1px solid #005AE2;
+        border-radius: 10px;
+        padding: 5px 15px;
+    }
 }
 
-.hrLine {
+.authButtons{
     display: flex;
-    flex-direction: row;
+    gap: 50px;
+}
+
+.hasLogin{
+    display: flex;
+    gap: 10px;
+}
+
+.forget{
+    display: flex;
+    justify-content: end;
+
+    >p{
+        color: #005AE2;
+    }
+
 }
